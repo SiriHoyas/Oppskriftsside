@@ -3,10 +3,10 @@
 }
 
 body {
-    background-color: #FFFDFD;
+    background-color: #232323;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    
+    color: white;    
 }
 
 #navbar {
@@ -31,28 +31,30 @@ body {
     background-color: #7C7881;
 }
 
-main {
-    width: 1000px;
-    
-}
+
 header img {
     display: flex;
-    
-    margin-top: 50px;
-    width: 1500px;
-    height: 750px; 
+    width: 1000px;
+    height: 400px; 
     object-fit: cover;
+    
 }
 
 header {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
 
-.informasjon {
+#informasjon {
     display: flex;
+    justify-content: space-evenly;
 
+}
+
+#fremgangsmate {
+    display: flex;
+    justify-content: center;
 }
 
 
