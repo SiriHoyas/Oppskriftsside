@@ -6,7 +6,7 @@ body {
     background-color: #232323;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
-    color: white;    
+    color: #232323;    
 }
 
 #navbar {
@@ -31,6 +31,14 @@ body {
     background-color: #7C7881;
 }
 
+main {
+    width: 1000px;
+    background-color: #ebebeb;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
 
 header img {
     display: flex;
@@ -38,6 +46,10 @@ header img {
     height: 400px; 
     object-fit: cover;
     
+}
+
+h1 {
+    font-size: 50px;
 }
 
 header {
