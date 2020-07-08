@@ -9,6 +9,7 @@ body {
     color: #232323;    
 }
 
+/* Navigation Bar */
 #navbar {
     list-style-type: none;
     margin: 0;
@@ -17,20 +18,17 @@ body {
     background-color: #545058;
     color: #fffdfd;
 }
-
-
-
 #navbar li a {
     display: inline-block;
     text-decoration: none;
     padding: 14px 16px;
     
 }
-
 #navbar li a:hover {
     background-color: #7C7881;
 }
 
+/* Main section */
 main {
     width: 1000px;
     background-color: #ebebeb;
@@ -38,6 +36,14 @@ main {
     margin-right: auto;
     margin-top: 10px;
     
+}
+
+/* Image, title and desctription*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 header img {
@@ -52,22 +58,24 @@ h1 {
     font-size: 50px;
 }
 
-header {
+
+
+/* Ingredients and instructions */
+
+.oppskrift {
+    margin-left: 30px;
+    margin-right: 30px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section ul {
+    list-style: none;
 }
 
-#informasjon {
-    display: flex;
-    justify-content: space-evenly;
 
-}
 
-#fremgangsmate {
-    display: flex;
-    justify-content: center;
-}
+
 
 
 
