@@ -52,6 +52,7 @@ header img {
     height: 400px; 
     object-fit: cover;
     
+    
 }
 
 h1 {
@@ -69,10 +70,19 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
 }
-section ul {
+
+.ingr {
     list-style: none;
+    padding-left: 0px;
+    border-right: 1px solid #d4d4d4 ;
 }
 
+.fremgang {
+    margin-left: 40px;
+}
+.frem {
+    padding-left: 1em;
+}
 
 
 
