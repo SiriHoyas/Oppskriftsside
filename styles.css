@@ -15,48 +15,63 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background-color: #545058;
-    color: #fffdfd;
+    background-color: #ebebeb;
+    color: black;
+    font-size: 20px;
 }
 #navbar li a {
     display: inline-block;
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 20px 16px;
     
 }
+
 #navbar li a:hover {
-    background-color: #7C7881;
+    background-color: #8f8f8f;
 }
 
 /* Main section */
 main {
     width: 1000px;
+    height: 2000px;
     background-color: #ebebeb;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 
 /* Image, title and desctription*/
 
 header {
-    display: flex;
+    display: row;
     flex-direction: column;
     align-items: flex-start;
+    
 }
 
 header img {
     display: flex;
     width: 1000px;
     height: 400px; 
-    object-fit: cover;
-    
-    
+    object-fit: cover;   
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 50px;
 }
 
 h1 {
     font-size: 50px;
+}
+
+.tidsbruk {
+    list-style-type: none;
 }
 
 
